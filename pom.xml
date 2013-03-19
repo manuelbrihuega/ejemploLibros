@@ -2,10 +2,16 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>es.webapp</groupId>
   <artifactId>ejemploLibros</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2</version>
   <packaging>war</packaging>
   <name>ejemploLibros</name>
   <description>Aplicación web de ejemplo para uso de JSP</description>
+  <properties>
+  	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties> 
+  <dependencies>
+  	
+  </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -15,6 +21,7 @@
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
+          <compilerVersion>1.7</compilerVersion>
         </configuration>
       </plugin>
       <plugin>
